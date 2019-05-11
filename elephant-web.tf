@@ -1,6 +1,8 @@
 # Provision a web server instance using the latest Ubuntu 16.04 on a
 # t2.micro node with an AWS Tag naming it "web-server"
 provider "aws" {
+access_key = "AKIAR6SET63PLDIXIMF5"
+secret_key = "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"
     region = "us-east-2"
 }
 
